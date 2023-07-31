@@ -2,5 +2,9 @@
   "name": "Lieferando",
   "version": "1.0.0",
   "dependencies": {
+<<<<<<< HEAD
+=======
+    "bootstrap": "^5.3.1"
+>>>>>>> fbc5826 (second commit)
   }
 }
