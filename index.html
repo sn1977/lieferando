@@ -3,21 +3,235 @@
 <head>
 	<meta charset="UTF-8">
 	<title>Lieferando</title>
-	<meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
-</head>
 	<meta content="text/html;charset=UTF-8" http-equiv="Content-Type">
-	<link href="./node_modules/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
-	meta
+</head>
+<meta content="text/html;charset=UTF-8" http-equiv="Content-Type">
+<link href="./node_modules/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
+<link href="style.css" rel="stylesheet">
+<script src="./script.js"></script>
 </head>
 <body>
-<h1>test</h1>
+	<header>
+		<div class="logoHeader">
+			<img alt="motorcycle" src="img/food-delivery-bike-12984.png">
+			<h1>DeliveryFast</h1>
+		</div>
+		<div>
+			<h2>Speisekarte</h2>
+		</div>
+		<div class="circlesHeader">
+			<img alt="GermanFlag" class="headerImage" src="./img/germany-flag-circular-17755.png">
+			<img alt="burgerMenu" class="headerImage" src="./img/website-menu-black-button-20752.png">
+		</div>
+	</header>
+	<div>
+		<div class="test">
+			<section class="orderArea" id="orderArea">
+				<div>
+					<img alt="#" class="titleImg" src="./img/tacos-1613795_640.jpg">
+				</div>
+				<div class="logo">
+					<img alt="logo" class="imgLogo" src="./img/LogoMakr-0ouiDn.png">
+				</div>
+				<div>
+					<h1>VeganKing</h1>
+					<div class="starIcon">
+						<img alt="star" class="starIcons" src="./img/star-346.png">
+						<img alt="star" class="starIcons" src="./img/star-346.png">
+						<img alt="star" class="starIcons" src="./img/star-346.png">
+						<img alt="star" class="starIcons" src="./img/star-346.png">
+						<img alt="star" class="starIcons" src="./img/favourite-2765.png">
+						<span class="spanStars">957 Bewertungen</span>
+					</div>
 
-<p>Lorem ipsum mnbmbiiui</p>
+					<img alt="time" class="iconsDelivery" src="./img/time-968.png">
+					<span>Lieferung in 40 - 50 min</span>
+					<img alt="time" class="iconsDelivery" src="./img/bag-1998.png">
+					<spa>Min. 25,00 €</spa>
+					<img alt="time" class="iconsDelivery" src="./img/bicycle-1054.png">
+					<spa>2,50 €</spa>
 
-<button class="btn btn-danger">Cancel</button>
+					<div class="selectionField">
+						<img alt="search" class="iconsDelivery slideArea" src="./img/search.svg">
+						<span class="menuSelection firstMenuSelection">Beliebt</span>
+						<span class="menuSelection">Frisch und Knackig</span>
+						<span class="menuSelection">Aus Topf und Pfanne</span>
+						<span class="menuSelection">Bowls</span>
+						<span class="menuSelection">Etwas Herzhaftes</span>
+						<span class="menuSelection">Burger & Fries</span>
+						<span class="menuSelection lastMenuSelection">Dessert</span>
+						<img alt="next" class="iconsDelivery slideArea" src="./img/arrow-right-circle.svg">
+					</div>
+				</div>
+				<div class="menuArea">
+					<h2>Beliebt</h2>
+					<div class="menuOrderArea">
+						<div class="menuOrder">
+							<div class="menuHeader">
+								<div class="menuHeader">
+									<h3>BLACK BEAN BURGER (vegan)</h3>
+									<svg class="bi bi-info-circle" fill="currentColor" height="16" viewBox="0 0 16 16"
+									     width="16" xmlns="http://www.w3.org/2000/svg">
+										<path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z"/>
+										<path d="m8.93 6.588-2.29.287-.082.38.45.083c.294.07.352.176.288.469l-.738 3.468c-.194.897.105 1.319.808 1.319.545 0 1.178-.252 1.465-.598l.088-.416c-.2.176-.492.246-.686.246-.275 0-.375-.193-.304-.533L8.93 6.588zM9 4.5a1 1 0 1 1-2 0 1 1 0 0 1 2 0z"/>
+									</svg>
+								</div>
+								<div class="addIcon" onclick="addToBasket('BLACK BEAN BURGER', 7.90)">
+									<svg class="bi bi-plus-circle" fill="currentColor" height="16" viewBox="0 0 16 16"
+									     width="16" xmlns="http://www.w3.org/2000/svg">
+										<path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z"/>
+										<path d="M8 4a.5.5 0 0 1 .5.5v3h3a.5.5 0 0 1 0 1h-3v3a.5.5 0 0 1-1 0v-3h-3a.5.5 0 0 1 0-1h3v-3A.5.5 0 0 1 8 4z"/>
+									</svg>
+								</div>
+							</div>
+							<span>mit Grillzwiebel, Cole Slaw, Tomate, Salat und Barbecuesauce</span>
+							<div class="priceMenu">
+								<span><b>7,90 €</b></span>
+							</div>
+						</div>
 
-das ist ein <a href="#">Link</a>
->>>>>>> fbc5826 (second commit)
+						<div class="menuOrder">
+							<div class="menuHeader">
+								<div class="menuHeader">
+									<h3>TUNA SANDWICH (vegan & glutenfrei)</h3>
+									<svg class="bi bi-info-circle" fill="currentColor" height="16" viewBox="0 0 16 16"
+									     width="16" xmlns="http://www.w3.org/2000/svg">
+										<path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z"/>
+										<path d="m8.93 6.588-2.29.287-.082.38.45.083c.294.07.352.176.288.469l-.738 3.468c-.194.897.105 1.319.808 1.319.545 0 1.178-.252 1.465-.598l.088-.416c-.2.176-.492.246-.686.246-.275 0-.375-.193-.304-.533L8.93 6.588zM9 4.5a1 1 0 1 1-2 0 1 1 0 0 1 2 0z"/>
+									</svg>
+								</div>
+								<div class="addIcon" onclick="addToBasket('TUNA SANDWICH', 6.90)">
+									<svg class="bi bi-plus-circle" fill="currentColor" height="16" viewBox="0 0 16 16"
+									     width="16" xmlns="http://www.w3.org/2000/svg">
+										<path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z"/>
+										<path d="M8 4a.5.5 0 0 1 .5.5v3h3a.5.5 0 0 1 0 1h-3v3a.5.5 0 0 1-1 0v-3h-3a.5.5 0 0 1 0-1h3v-3A.5.5 0 0 1 8 4z"/>
+									</svg>
+								</div>
+							</div>
+							<span>mit Kichererbesen, Tofu, Rucola</span>
+							<div class="priceMenu">
+								<span><b>6,90 €</b></span>
+							</div>
+						</div>
 
+						<div class="menuOrder">
+							<div class="menuHeader">
+								<div class="menuHeader">
+									<h3>ORIENTAL BOWL (vegan)</h3>
+									<svg class="bi bi-info-circle" fill="currentColor" height="16" viewBox="0 0 16 16"
+									     width="16" xmlns="http://www.w3.org/2000/svg">
+										<path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z"/>
+										<path d="m8.93 6.588-2.29.287-.082.38.45.083c.294.07.352.176.288.469l-.738 3.468c-.194.897.105 1.319.808 1.319.545 0 1.178-.252 1.465-.598l.088-.416c-.2.176-.492.246-.686.246-.275 0-.375-.193-.304-.533L8.93 6.588zM9 4.5a1 1 0 1 1-2 0 1 1 0 0 1 2 0z"/>
+									</svg>
+								</div>
+								<div class="addIcon" onclick="addToBasket('ORIENTAL BOWL', 12.20)">
+									<svg class="bi bi-plus-circle" fill="currentColor" height="16" viewBox="0 0 16 16"
+									     width="16" xmlns="http://www.w3.org/2000/svg">
+										<path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z"/>
+										<path d="M8 4a.5.5 0 0 1 .5.5v3h3a.5.5 0 0 1 0 1h-3v3a.5.5 0 0 1-1 0v-3h-3a.5.5 0 0 1 0-1h3v-3A.5.5 0 0 1 8 4z"/>
+									</svg>
+								</div>
+							</div>
+							<span>mit Romanasalat, Falafel, eingelegtes Rotkraut, gegrillte Harissa Karotten, Kichererbsen und Zitronenmayo</span>
+							<div class="priceMenu">
+								<span><b>12,20 €</b></span>
+							</div>
+						</div>
+
+						<div class="menuOrder">
+							<div class="menuHeader">
+								<div class="menuHeader">
+									<h3>VEGAN KING MAGIC BOWL</h3>
+									<svg class="bi bi-info-circle" fill="currentColor" height="16" viewBox="0 0 16 16"
+									     width="16" xmlns="http://www.w3.org/2000/svg">
+										<path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z"/>
+										<path d="m8.93 6.588-2.29.287-.082.38.45.083c.294.07.352.176.288.469l-.738 3.468c-.194.897.105 1.319.808 1.319.545 0 1.178-.252 1.465-.598l.088-.416c-.2.176-.492.246-.686.246-.275 0-.375-.193-.304-.533L8.93 6.588zM9 4.5a1 1 0 1 1-2 0 1 1 0 0 1 2 0z"/>
+									</svg>
+								</div>
+								<div class="addIcon" onclick="addToBasket('MAGIC BOWL', 12.20)">
+									<svg class="bi bi-plus-circle" fill="currentColor" height="16" viewBox="0 0 16 16"
+									     width="16" xmlns="http://www.w3.org/2000/svg">
+										<path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z"/>
+										<path d="M8 4a.5.5 0 0 1 .5.5v3h3a.5.5 0 0 1 0 1h-3v3a.5.5 0 0 1-1 0v-3h-3a.5.5 0 0 1 0-1h3v-3A.5.5 0 0 1 8 4z"/>
+									</svg>
+								</div>
+							</div>
+							<span>Täglich frisch! Lass Dich überraschen!</span>
+							<div class="priceMenu">
+								<span><b>12,20 €</b></span>
+							</div>
+						</div>
+
+						<div class="menuOrder">
+							<div class="menuHeader">
+								<div class="menuHeader">
+									<h3>LINSEN-MARONI-EINTOPF & ROSENKOHL MIT INGWER</h3>
+									<svg class="bi bi-info-circle" fill="currentColor" height="16" viewBox="0 0 16 16"
+									     width="16" xmlns="http://www.w3.org/2000/svg">
+										<path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z"/>
+										<path d="m8.93 6.588-2.29.287-.082.38.45.083c.294.07.352.176.288.469l-.738 3.468c-.194.897.105 1.319.808 1.319.545 0 1.178-.252 1.465-.598l.088-.416c-.2.176-.492.246-.686.246-.275 0-.375-.193-.304-.533L8.93 6.588zM9 4.5a1 1 0 1 1-2 0 1 1 0 0 1 2 0z"/>
+									</svg>
+								</div>
+								<div class="addIcon" onclick="addToBasket('LINSEN-MARONI-EINTOPF', 15.90)">
+									<svg class="bi bi-plus-circle" fill="currentColor" height="16" viewBox="0 0 16 16"
+									     width="16" xmlns="http://www.w3.org/2000/svg">
+										<path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z"/>
+										<path d="M8 4a.5.5 0 0 1 .5.5v3h3a.5.5 0 0 1 0 1h-3v3a.5.5 0 0 1-1 0v-3h-3a.5.5 0 0 1 0-1h3v-3A.5.5 0 0 1 8 4z"/>
+									</svg>
+								</div>
+							</div>
+							<span>mit braunen und roten Linsen, Maroni , Rosenkohl, Zwiebel und Ingwer</span>
+							<div class="priceMenu">
+								<span><b>15,90 €</b></span>
+							</div>
+						</div>
+
+						<div class="menuOrder">
+							<div class="menuHeader">
+								<div class="menuHeader">
+									<h3>ARABISCHER SCHMORTOPF MIT TOFU</h3>
+									<svg class="bi bi-info-circle" fill="currentColor" height="16" viewBox="0 0 16 16"
+									     width="16" xmlns="http://www.w3.org/2000/svg">
+										<path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z"/>
+										<path d="m8.93 6.588-2.29.287-.082.38.45.083c.294.07.352.176.288.469l-.738 3.468c-.194.897.105 1.319.808 1.319.545 0 1.178-.252 1.465-.598l.088-.416c-.2.176-.492.246-.686.246-.275 0-.375-.193-.304-.533L8.93 6.588zM9 4.5a1 1 0 1 1-2 0 1 1 0 0 1 2 0z"/>
+									</svg>
+								</div>
+								<div class="addIcon" onclick="addToBasket('ARABISCHER SCHMORTOPF', 15.90)">
+									<svg class="bi bi-plus-circle" fill="currentColor" height="16" viewBox="0 0 16 16"
+									     width="16" xmlns="http://www.w3.org/2000/svg">
+										<path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z"/>
+										<path d="M8 4a.5.5 0 0 1 .5.5v3h3a.5.5 0 0 1 0 1h-3v3a.5.5 0 0 1-1 0v-3h-3a.5.5 0 0 1 0-1h3v-3A.5.5 0 0 1 8 4z"/>
+									</svg>
+								</div>
+							</div>
+							<span>mit Aubergine, Pelati, Tofu und Harissa</span>
+							<div class="priceMenu">
+								<span><b>15,90 €</b></span>
+							</div>
+						</div>
+						<button class="btnOrder" id="btnBasket" onclick="showBasket()" type="button">Warenkorb</button>
+					</div>
+				</div>
+
+
+			</section>
+
+			<section class="shoppingBasket basketOff" id="shoppingBasket">
+				<button class="btn btn-primary rounded-circle p-2 lh-1 btnBasket" id="btnCloseBasket"
+				        onclick="closeBasket()"
+				        type="button">
+					<span>x</span>
+				</button>
+				<h1>Warenkorb</h1>
+				<div id="contentBasket">
+					<img alt="shoppingBasket" class="imgBasket" src="./img/cart-fill.svg">
+					<h1>Fülle Deinen Warenkorb</h1>
+					<sp>Füge einige leckere Gerichte aus der Speisekarte hinzu und bestelle Dein Essen.</sp>
+				</div>
+				<div id="finalSum"></div>
+			</section>
+		</div>
+
+	</div>
 </body>
 </html>
